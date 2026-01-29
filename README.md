@@ -8,7 +8,6 @@ The user will need to log in first if he already has an account; otherwise, the 
 The user will be able to create comments for blogs, but the user cannot create 2 comments for the same blog. User can update, delete, and create comments they have created. 
 But the user can not update, create, or delete the blog, they can perform only get request, ready only. 
 
-
 When the user logs in, a token will be created for this user automatically, so user  can carry this token and does not need to log in on each request, and when the user logs out, the token will be deleted.
 
 Users should log in in order to create, delete, and update comments.
